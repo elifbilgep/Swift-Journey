@@ -15,7 +15,24 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("viewDidLoad called")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        print("viewDidDisappear called")
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        print("viewWillDisappear called")
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        print("viewWillAppear called")
+        nameTextField.text = ""
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print("viewDidAppear called")
     }
 
 
