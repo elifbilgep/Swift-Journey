@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A6178EA29C76FB90056B774 /* CuteIconsProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6178E929C76FB90056B774 /* CuteIconsProjectApp.swift */; };
+		6A6178EC29C76FB90056B774 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6178EB29C76FB90056B774 /* ContentView.swift */; };
+		6A6178EE29C76FBA0056B774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6178ED29C76FBA0056B774 /* Assets.xcassets */; };
+		6A6178F129C76FBA0056B774 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6178F029C76FBA0056B774 /* Preview Assets.xcassets */; };
+		6A6178F829C7704A0056B774 /* Cuties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6178F729C7704A0056B774 /* Cuties.swift */; };
+		6A6178FA29C773A50056B774 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6178F929C773A50056B774 /* CircleImageView.swift */; };
+		6A6178FC29C775300056B774 /* CutieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6178FB29C775300056B774 /* CutieView.swift */; };
+		6A61790529C7985E0056B774 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A61790429C7985E0056B774 /* WidgetKit.framework */; };
+		6A61790729C7985E0056B774 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A61790629C7985E0056B774 /* SwiftUI.framework */; };
+		6A61790D29C7985F0056B774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A61790C29C7985F0056B774 /* Assets.xcassets */; };
+		6A61790F29C7985F0056B774 /* cutieWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6A61790B29C7985E0056B774 /* cutieWidget.intentdefinition */; };
+		6A61791029C7985F0056B774 /* cutieWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6A61790B29C7985E0056B774 /* cutieWidget.intentdefinition */; };
+		6A61791329C7985F0056B774 /* cutieWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6A61790229C7985E0056B774 /* cutieWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6A61791829C799A50056B774 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6178F929C773A50056B774 /* CircleImageView.swift */; };
+		6A61791929C799A80056B774 /* CutieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6178FB29C775300056B774 /* CutieView.swift */; };
+		6A61791A29C799BF0056B774 /* Cuties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6178F729C7704A0056B774 /* Cuties.swift */; };
+		6A61791C29C7B5130056B774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6178ED29C76FBA0056B774 /* Assets.xcassets */; };
+		6A61791E29C7B8930056B774 /* cutieWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A61790929C7985E0056B774 /* cutieWidget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A61791129C7985F0056B774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A6178DE29C76FB90056B774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A61790129C7985E0056B774;
+			remoteInfo = cutieWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6A61791729C7985F0056B774 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6A61791329C7985F0056B774 /* cutieWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6A6178E629C76FB90056B774 /* CuteIconsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuteIconsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6178E929C76FB90056B774 /* CuteIconsProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuteIconsProjectApp.swift; sourceTree = "<group>"; };
+		6A6178EB29C76FB90056B774 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A6178ED29C76FBA0056B774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A6178F029C76FBA0056B774 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A6178F729C7704A0056B774 /* Cuties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuties.swift; sourceTree = "<group>"; };
+		6A6178F929C773A50056B774 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		6A6178FB29C775300056B774 /* CutieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutieView.swift; sourceTree = "<group>"; };
+		6A6178FD29C7957B0056B774 /* CuteIconsProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CuteIconsProject.entitlements; sourceTree = "<group>"; };
+		6A61790229C7985E0056B774 /* cutieWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = cutieWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A61790429C7985E0056B774 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6A61790629C7985E0056B774 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6A61790929C7985E0056B774 /* cutieWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cutieWidget.swift; sourceTree = "<group>"; };
+		6A61790B29C7985E0056B774 /* cutieWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = cutieWidget.intentdefinition; sourceTree = "<group>"; };
+		6A61790C29C7985F0056B774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A61790E29C7985F0056B774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A61791D29C7B5220056B774 /* cutieWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cutieWidgetExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A6178E329C76FB90056B774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6178FF29C7985E0056B774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A61790729C7985E0056B774 /* SwiftUI.framework in Frameworks */,
+				6A61790529C7985E0056B774 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A6178DD29C76FB90056B774 = {
+			isa = PBXGroup;
+			children = (
+				6A61791D29C7B5220056B774 /* cutieWidgetExtension.entitlements */,
+				6A6178E829C76FB90056B774 /* CuteIconsProject */,
+				6A61790829C7985E0056B774 /* cutieWidget */,
+				6A61790329C7985E0056B774 /* Frameworks */,
+				6A6178E729C76FB90056B774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A6178E729C76FB90056B774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A6178E629C76FB90056B774 /* CuteIconsProject.app */,
+				6A61790229C7985E0056B774 /* cutieWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A6178E829C76FB90056B774 /* CuteIconsProject */ = {
+			isa = PBXGroup;
+			children = (
+				6A6178FD29C7957B0056B774 /* CuteIconsProject.entitlements */,
+				6A6178E929C76FB90056B774 /* CuteIconsProjectApp.swift */,
+				6A6178EB29C76FB90056B774 /* ContentView.swift */,
+				6A6178ED29C76FBA0056B774 /* Assets.xcassets */,
+				6A6178EF29C76FBA0056B774 /* Preview Content */,
+				6A6178F729C7704A0056B774 /* Cuties.swift */,
+				6A6178F929C773A50056B774 /* CircleImageView.swift */,
+				6A6178FB29C775300056B774 /* CutieView.swift */,
+			);
+			path = CuteIconsProject;
+			sourceTree = "<group>";
+		};
+		6A6178EF29C76FBA0056B774 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A6178F029C76FBA0056B774 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A61790329C7985E0056B774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A61790429C7985E0056B774 /* WidgetKit.framework */,
+				6A61790629C7985E0056B774 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A61790829C7985E0056B774 /* cutieWidget */ = {
+			isa = PBXGroup;
+			children = (
+				6A61790929C7985E0056B774 /* cutieWidget.swift */,
+				6A61790B29C7985E0056B774 /* cutieWidget.intentdefinition */,
+				6A61790C29C7985F0056B774 /* Assets.xcassets */,
+				6A61790E29C7985F0056B774 /* Info.plist */,
+			);
+			path = cutieWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A6178E529C76FB90056B774 /* CuteIconsProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A6178F429C76FBA0056B774 /* Build configuration list for PBXNativeTarget "CuteIconsProject" */;
+			buildPhases = (
+				6A6178E229C76FB90056B774 /* Sources */,
+				6A6178E329C76FB90056B774 /* Frameworks */,
+				6A6178E429C76FB90056B774 /* Resources */,
+				6A61791729C7985F0056B774 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A61791229C7985F0056B774 /* PBXTargetDependency */,
+			);
+			name = CuteIconsProject;
+			productName = CuteIconsProject;
+			productReference = 6A6178E629C76FB90056B774 /* CuteIconsProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A61790129C7985E0056B774 /* cutieWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A61791429C7985F0056B774 /* Build configuration list for PBXNativeTarget "cutieWidgetExtension" */;
+			buildPhases = (
+				6A6178FE29C7985E0056B774 /* Sources */,
+				6A6178FF29C7985E0056B774 /* Frameworks */,
+				6A61790029C7985E0056B774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cutieWidgetExtension;
+			productName = cutieWidgetExtension;
+			productReference = 6A61790229C7985E0056B774 /* cutieWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A6178DE29C76FB90056B774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6A6178E529C76FB90056B774 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6A61790129C7985E0056B774 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6A6178E129C76FB90056B774 /* Build configuration list for PBXProject "CuteIconsProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A6178DD29C76FB90056B774;
+			productRefGroup = 6A6178E729C76FB90056B774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A6178E529C76FB90056B774 /* CuteIconsProject */,
+				6A61790129C7985E0056B774 /* cutieWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A6178E429C76FB90056B774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6178F129C76FBA0056B774 /* Preview Assets.xcassets in Resources */,
+				6A6178EE29C76FBA0056B774 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A61790029C7985E0056B774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A61791C29C7B5130056B774 /* Assets.xcassets in Resources */,
+				6A61790D29C7985F0056B774 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A6178E229C76FB90056B774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6178FA29C773A50056B774 /* CircleImageView.swift in Sources */,
+				6A6178EC29C76FB90056B774 /* ContentView.swift in Sources */,
+				6A6178EA29C76FB90056B774 /* CuteIconsProjectApp.swift in Sources */,
+				6A6178FC29C775300056B774 /* CutieView.swift in Sources */,
+				6A6178F829C7704A0056B774 /* Cuties.swift in Sources */,
+				6A61791029C7985F0056B774 /* cutieWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6178FE29C7985E0056B774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A61791829C799A50056B774 /* CircleImageView.swift in Sources */,
+				6A61791E29C7B8930056B774 /* cutieWidget.swift in Sources */,
+				6A61790F29C7985F0056B774 /* cutieWidget.intentdefinition in Sources */,
+				6A61791A29C799BF0056B774 /* Cuties.swift in Sources */,
+				6A61791929C799A80056B774 /* CutieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A61791229C7985F0056B774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A61790129C7985E0056B774 /* cutieWidgetExtension */;
+			targetProxy = 6A61791129C7985F0056B774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A6178F229C76FBA0056B774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A6178F329C76FBA0056B774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A6178F529C76FBA0056B774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CuteIconsProject/CuteIconsProject.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CuteIconsProject/Preview Content\"";
+				DEVELOPMENT_TEAM = Y5JW4F4D62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elifbilgeparlak.CuteIconsProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A6178F629C76FBA0056B774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CuteIconsProject/CuteIconsProject.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CuteIconsProject/Preview Content\"";
+				DEVELOPMENT_TEAM = Y5JW4F4D62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elifbilgeparlak.CuteIconsProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A61791529C7985F0056B774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = cutieWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5JW4F4D62;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cutieWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = cutieWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elifbilgeparlak.CuteIconsProject.cutieWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A61791629C7985F0056B774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = cutieWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5JW4F4D62;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cutieWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = cutieWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elifbilgeparlak.CuteIconsProject.cutieWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A6178E129C76FB90056B774 /* Build configuration list for PBXProject "CuteIconsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A6178F229C76FBA0056B774 /* Debug */,
+				6A6178F329C76FBA0056B774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A6178F429C76FBA0056B774 /* Build configuration list for PBXNativeTarget "CuteIconsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A6178F529C76FBA0056B774 /* Debug */,
+				6A6178F629C76FBA0056B774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A61791429C7985F0056B774 /* Build configuration list for PBXNativeTarget "cutieWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A61791529C7985F0056B774 /* Debug */,
+				6A61791629C7985F0056B774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A6178DE29C76FB90056B774 /* Project object */;
+}
