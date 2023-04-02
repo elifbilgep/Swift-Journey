@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "769B8BD6-1571-4C5F-A7BD-F3F220E6EAA3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A720C847-2BD6-4FFC-B600-9FAF3F78CFB4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotoPickerSwiftUI/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "A720C847-2BD6-4FFC-B600-9FAF3F78CFB4 - 469a3fab3b168c48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotoPickerSwiftUI.ContentView.init() -&gt; PhotoPickerSwiftUI.ContentView"
+                  moduleName = "PhotoPickerSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elifbilgeparlak/SwiftProjects/Swift%20Learning/PhotoPickerSwiftUI/PhotoPickerSwiftUI/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "A720C847-2BD6-4FFC-B600-9FAF3F78CFB4 - ee2d18f4cbfc3c4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotoPickerSwiftUI.ContentView.init(selectedItem: Swift.Array&lt;_PhotosUI_SwiftUI.PhotosPickerItem&gt;, data: Swift.Optional&lt;Foundation.Data&gt;) -&gt; PhotoPickerSwiftUI.ContentView"
+                  moduleName = "PhotoPickerSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elifbilgeparlak/SwiftProjects/Swift%20Learning/PhotoPickerSwiftUI/PhotoPickerSwiftUI/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
